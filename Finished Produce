@@ -1,0 +1,36 @@
+#function loops input to allow the user to find each word/sentence's position in the list.
+def thingy():
+    what_else = input('anything else you want to look at? ')
+    if what_else == 'yes':
+        return (select)
+    else:
+        #end program
+        print(' well then. we are done here.')
+        exit()
+
+print('Welcome to this wierd prroject. I require you to compile a list of things seperated by a comma.')
+#creating user defined list
+input_string = input('please keep the content strictly words only. ')
+list_thing = input_string.split(',')
+print('\n')
+
+
+#surprise tool that will help us later
+extra = ('Spanish Inquisition')
+list_thing.append(extra)
+
+print(list_thing)
+
+#displays list's content
+output = f'your list contains {number} thing(s)'
+
+print(output)
+
+#allows user to print one element of the list
+select = int(input('select the position of a thing to take from the list: '))
+
+
+print(select)
+while select <= len(list_thing):
+    print(list_thing[select])
+    thingy()
